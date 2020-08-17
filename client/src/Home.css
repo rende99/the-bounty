@@ -1,0 +1,170 @@
+.dummy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.spinnerClass {
+    position: absolute;
+    top: 40%;
+    z-index: 5;
+}
+
+.pageTitle {
+    font-size: 250%;
+}
+
+.topContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameName {
+    margin: 4px;
+}
+.gameCategory {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.pastWParent {
+    width: 30%;
+    margin: 10px;
+}
+
+.bigDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #293742;
+    margin-bottom: 30px;
+}
+
+.voteDiv {
+    padding: 10px;
+    background-color: #293742;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 30%;
+    margin: 10px;
+}
+
+.currentBountyCard {
+    margin: 30px;
+    border: 2px dashed #5C7080;
+    width: 30%;
+}
+
+.bountyCard {
+    margin: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #182026;
+}
+
+.bountyTimerDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.timerCard {
+    padding: 10px;
+    margin: 10px;
+    width: 80px;
+}
+
+.timeText {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contentDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.bountyImage {
+    max-height: 250px;
+}
+
+.addArea {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+    width: 40vw;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.WRDiv {
+    background-color: #202B33;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+
+.bountyValue {
+    font-size: 400%;
+    margin: 0;
+}
+
+.actionDiv {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    width: 35vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionTitle {
+    margin: 0;
+    margin-top: 20px;
+}
+
+.caption {
+    margin: 0;
+}
+
+
+
+.inline {
+    display: inline;
+}
+
+.label {
+    margin: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 33.33%;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: black;
+    text-decoration: none;
+    outline: none;
+}
